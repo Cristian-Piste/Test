@@ -31,7 +31,7 @@ public class PokemonH2Controller {
         if (!servicePokemonH2.guardar(pokemonH2)) {
             return new ResponseEntity<>(pokemonH2, HttpStatus.INTERNAL_SERVER_ERROR);
         }
-        return new ResponseEntity<>(pokemonH2, HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(pokemonH2, HttpStatus.CREATED);
     }
 
     @GetMapping(value = {"/E/{nickname}"})
