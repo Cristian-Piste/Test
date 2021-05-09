@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymelaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>500</title>
+</head>
+<body>
+
+<link rel="stylesheet" th:href="@{/css/errorCode.css}">
+
+<div th:replace="layout/errorCode :: errorCode(code='500', titulo=titulo.c500, descripcion=desc.c500)"></div>
+
+</body>
+</html>

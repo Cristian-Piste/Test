@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymelaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+
+<div th:fragment="errorCode(code, titulo, descripcion)" id="error-page">
+    <div class="content">
+        <h1 th:data-text="__${code}__" th:text="__${code}__"></h1>
+        <h4 th:data-text="#{__${titulo}__}" th:text="#{__${titulo}__}"></h4>
+        <p th:text="#{__${descripcion}__}"></p>
+        <div class="btns">
+            <a th:href="@{/help}">Inicio</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

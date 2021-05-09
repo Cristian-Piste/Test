@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help</title>
+
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/webjars/font-awesome/css/all.css}"/>
+    <link rel="stylesheet" th:href="@{/css/estilos.css}"/>
+</head>
+
+<body>
+<div class="container vh-100">
+    <div class="row align-items-center vh-100">
+        <div class="col-6 mx-auto">
+            <div class="card mx-auto">
+                <div class="card-header">
+                    <h1 class="text-center">Contacto</h1>
+                </div>
+
+                <div class="card-body">
+                    <span class="font-weight-bold">Desarrollador: </span> <span> Cristian Jovani Piste Gómez</span> <br>
+                    <br>
+                    <span class="font-weight-bold">Correo: </span> <span>piste.gomez96@gmail.com</span> <br> <br>
+                    <span class="font-weight-bold">Celular: </span> <span>55 3519 6878</span> <br> <br>
+                    <span class="font-weight-bold">Principales herramientas:</span>
+                    <ul>
+                        <li>Java 8</li>
+                        <li>Spring</li>
+                        <li>Thymeleaf</li>
+                        <li>Swagger</li>
+                        <li>H2 Database</li>
+                    </ul>
+                </div>
+
+                <div class="card-footer px-5">
+                    <a th:href="@{/swagger-ui.html}" target="_blank" class="h6 btn-link">
+                        Documentación e información de la API
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+
+</body>
+</html>

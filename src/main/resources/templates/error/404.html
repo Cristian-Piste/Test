@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymelaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>404</title>
+</head>
+<body>
+
+<link rel="stylesheet" th:href="@{/css/errorCode.css}">
+
+<div th:replace="layout/errorCode :: errorCode(code='404', titulo=titulo.c404, descripcion=desc.c404)"></div>
+
+</body>
+</html>
