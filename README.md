@@ -17,7 +17,7 @@ git clone https://github.com/Cristian-Piste/Test.git
 # Modo de uso
 
 * Se accede al *Endpoint* **/H2/D** ubicado en el controlador **PokemonH2Controller** y se presiona el boton de <ins style="color:blue">Try it out</ins>.
-  Este *Endpoint* soporta un metodo POST lo que significa que se creara un nuevo elemento y los parametro que necesita son **nickname** y **species** los cuales proporcionaremos en sus respectivos campos.
+  Este *Endpoint* soporta un metodo POST lo que significa que se creara un nuevo elemento, los parametros que necesita son **nickname** y **species** los cuales proporcionaremos en sus respectivos campos.
   ![](https://i.imgur.com/DshcAu7.png)
 
 * Una vez con los campos llenados se presionara el boton de <ins style="color:blue">Execute</ins> el cual nos dara como resultado un codigo de estado HTTP y un curpo de respuesta
